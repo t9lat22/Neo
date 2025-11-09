@@ -70,8 +70,21 @@
     }
 
     .icon:hover {
-      transform: scale(1.1);
+      transition: 0.1s;
+      transform: scale(1.2);
+      border-radius: 12px;
+      /*Border color*/
+      border: 3px solid white;
+
     }
+
+    .icon:active {
+      transition: 0.2s;
+      border-radius: 14px;
+      border: 3px solid white;
+      transform: scale(1);
+    }
+
 
 
 @keyframes shake-animation {
