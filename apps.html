@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Neo</title>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7176221127189774"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+       <a href="index.html">
+               <!--Change name here-->
+
+              <h1 class="title">Neo Apps</h1>
+
+       </a>
+
+      <h1 class="title">Neo V1</h1>
+
+     <input style=" color:white; background: #b20a0a;  
+ 
+" type="text" id="searchBar" placeholder="Search games by name...">
+
+
+     <h1 class="gtext"></h1>
+
+ <!--Apps-->
+
+     <div id="imageContainer">
+ 
+         <a href='/g/amongus.html'>
+    <img class="btn" src="/assets/windows.png" alt="windows 11">
+         </a>
+
+         
+
+
+
+
+
+
+<!--CSS do not touch unless you know what your doing-->
+<style>
+    body{
+      /* This is the background color, change it if u want to*/
+        background-color:#0687dd ;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+      .btn {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px ; /* Add !important to ensure it overrides other styles */
+    gap: 150px;
+    transition: transform 0.3s ease-in-out;
+    font-family: sans-serif;
+      transition: all 0.3s ease;   /* smooth hover */
+    font-size: 15px;
+  
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: none;
+      transform: scale(0.9);
+      border-radius: 50px;
+
+}
+#searchBar{
+  text-align:center;
+  background-color: #b20a0a;
+border: 1px solid  #b20a0a;  
+  color: white;
+  border-radius: 12px;
+  left:43%;
+  padding: 15px 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#b20a0a;
+    position: fixed; 
+  top: 10px;       
+  left: 50%;
+  transform: translateX(-50%); 
+  z-index: 1000; 
+  opacity: 1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+
+}
+#searchBar::placeholder {
+  color: white; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  
+
+}
+#imageContainer {
+  margin-top: 70px; 
+}
+    .gtext{
+          text-align:center;
+          font-family: sans-serif;
+background:none;  
+border-radius: 20px;           
+          color:#ffffff;
+                  
+     }
+      img {
+    width: 35px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  img:hover {
+    transform: translateY(-3px);
+    box-shadow: none;
+    border-radius: 15px;
+  }
+  a{
+     outline:none;
+  }
+  a:focus{
+     outline:none;
+  }
+     .title{
+      /* This is the CSS for the title on top of the website */
+          background-color: #b20a0a;
+      color: white;
+      padding: 5px 15px;
+      font-size: 2rem;
+      font-weight: bold;
+      border-radius: 12px;
+      margin-bottom: 50px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      top:-10px;
+      position: fixed;
+      left:2.5%;
+        }
+ 
+</style>
+<!--DO NOT TOUCH UNLESS YOU KNOW WHAT YOUR DOING!!!!!!-->
+<!--This is the javascript for the search bar-->
+
+<script>
+  document.getElementById('searchBar').addEventListener('input', function () {
+    const searchTerm = this.value.toLowerCase();
+    const images = document.querySelectorAll('#imageContainer img');
+
+    images.forEach(image => {
+      const altText = image.getAttribute('alt') || '';
+      if (altText.toLowerCase().includes(searchTerm)) {
+        image.style.display = 'inline-block';
+      } else {
+        image.style.display = 'none';
+      }
+    });
+  });
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'99b1f01d3eca3961',t:'MTc2MjU3MjA2Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
