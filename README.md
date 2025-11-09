@@ -17,3 +17,5 @@ To **add more games** to your Neo site:
 ---
 
 💡 *Tip:* Keep game filenames simple (like `slope.html` or `flappybird.html`) so they’re easy to organize and link from your homepage.
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?9FE0834A0DEE5037E86C32BA89AFD5BFDC37
