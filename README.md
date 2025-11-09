@@ -1,6 +1,6 @@
 # 🕹️ Neo V1
 
-**Neo** is an open-source **unblocked games website** that allows anyone to **fork, customize, and host their own** version with ease.  
+**Neo** is an open-source **simple unblocked games website** that allows anyone to **fork, customize, and host their own** version with ease.  
 It’s designed for simplicity, flexibility, and fun — perfect for creating your own game hub.
 
 ---
@@ -18,4 +18,3 @@ To **add more games** to your Neo site:
 
 💡 *Tip:* Keep game filenames simple (like `slope.html` or `flappybird.html`) so they’re easy to organize and link from your homepage.
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?01D5E5650D6F26A5679D390C599CAF25A458
